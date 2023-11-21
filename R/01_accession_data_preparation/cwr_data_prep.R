@@ -66,4 +66,9 @@ for (cname in crop_list) {
 }
 
 
-
+# xx <- occ_sel %>%
+#   dplyr::filter(hascoord == "YES")
+# plot(xx$final_lon, xx$final_lat, pch=20, col="blue")
+# library(maptools)
+# data(wrld_simpl)
+# plot(wrld_simpl, add=TRUE)
